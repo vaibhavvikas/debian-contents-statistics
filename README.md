@@ -25,22 +25,22 @@ I also created a util file, which contains various general methods such as downl
 Further I used the config file for general usecases such as what if we want to remove a particualr architecture or add it. What if instead of 10 we want 20 top packages.
 
 ## Project Structure:
-
+```
 ├── config
-│   ├── config.yaml
+│   └── config.yaml
 ├── package_statistics
 │   ├── service
 │   │   ├── impl
-│   │   │   ├── statistics_impl.py
+│   │   │   └── statistics_impl.py
 │   │   ├── arg_parser.py
 │   │   ├── config.py
 │   │   ├── contents.py
-│   │   ├── statistics.py
-│   ├── util
-│   │   ├── util.py
+│   │   └── statistics.py
+│   └── util
+│       └── util.py
 ├── requirements.txt
-├── setup.py
-
+└── setup.py
+```
 
 ## Steps to run the project.
 
