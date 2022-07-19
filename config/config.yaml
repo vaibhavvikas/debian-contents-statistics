@@ -1,0 +1,4 @@
+url: http://ftp.uk.debian.org/debian/dists/stable/main/Contents-udeb-$arch.gz
+architectures: ["all", "amd64", "arm64", "armel", "armhf", "i386", "mips64el", "mipsel", "ppc64el", "s390x"]
+temp: temp/
+max: 10
